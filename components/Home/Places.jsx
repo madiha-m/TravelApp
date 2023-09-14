@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, VirtualizedList } from 'react-native'
 import React from 'react'
 import HeightSpacer from '../Reusable/HeightSpacer'
 import { SIZES } from '../../constants/them'
-import Country from '../Tiles/Country/Country'
+import { Country } from '../../components/index'
 
 const Places = () => {
   const countries = [
@@ -44,7 +44,7 @@ const Places = () => {
   ]
   return (
     <View>
-       
+
       <HeightSpacer height={20} />
 
       <VirtualizedList
@@ -57,7 +57,7 @@ const Places = () => {
         renderItem={({ item, index }) => (
           <View style={{ marginRight: SIZES.medium }}>
             {/* <Text>{item.country}</Text> */}
-            <Country item={item}/>
+            <Country item={item} />
           </View>
         )}
       >

@@ -5,7 +5,7 @@ import HeightSpacer from "./Reusable/HeightSpacer";
 import WidthSpacer from './Reusable/WidthSpacer';
 import Places from "./Home/Places";
 import NetworkImage from "./Reusable/NetworkImage";
-// import Country from "./Tiles/Country/Country";
+import Country from "./Tiles/Country/Country";
 
 export {
     // Slides,
@@ -15,5 +15,5 @@ export {
     WidthSpacer,
     Places,
     NetworkImage,
-    // Country
+    Country
 }
