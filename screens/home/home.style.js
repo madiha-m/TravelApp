@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { COLORS } from "../../constants/them";
+import { COLORS } from "../../constants/theme";
 
 const styles = StyleSheet.create({
     box: {

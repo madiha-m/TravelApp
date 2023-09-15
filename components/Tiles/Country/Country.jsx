@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native'
-import { COLORS, TEXT } from '../../../constants/them'
+import { COLORS, TEXT } from '../../../constants/theme'
 import { NetworkImage, ReusableText } from '../../../components/index'
 
 const Country = ({ item }) => {

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, VirtualizedList } from 'react-native'
 import React from 'react'
 import HeightSpacer from '../Reusable/HeightSpacer'
-import { SIZES } from '../../constants/them'
+import { SIZES } from '../../constants/theme'
 import { Country } from '../../components/index'
 
 const Places = () => {

@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { SIZES } from '../../constants/them'
+import { SIZES } from '../../constants/theme'
 
 const ReusableBtn = ({ onPress, btnText, txtColor, width, backgroundColor, borderWidth, borderColor }) => {
     return (

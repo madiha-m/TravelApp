@@ -3,7 +3,7 @@ import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Chat, Home, Location, Profile } from '../screens';
 import { Ionicons } from '@expo/vector-icons';
-import { COLORS } from '../constants/them';
+import { COLORS } from '../constants/theme';
 
 const Tab = createBottomTabNavigator();
 

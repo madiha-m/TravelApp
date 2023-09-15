@@ -3,7 +3,7 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import resuable from '../../components/Reusable/reusable.style'
 import { HeightSpacer, Places, ReusableText } from '../../components'
-import { COLORS, SIZES, TEXT } from '../../constants/them'
+import { COLORS, SIZES, TEXT } from '../../constants/theme'
 import { AntDesign } from '@expo/vector-icons'
 import styles from './home.style'
 

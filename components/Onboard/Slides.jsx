@@ -2,7 +2,7 @@ import { View, F, Image } from 'react-native'
 import React from 'react'
 import styles from './slides.style'
 import { HeightSpacer, ReusableBtn, ReusableText } from '../../components/index'
-import { COLORS, SIZES } from '../../constants/them'
+import { COLORS, SIZES } from '../../constants/theme'
 import { useNavigation } from '@react-navigation/native'
 
 const Slides = ({ item }) => {
