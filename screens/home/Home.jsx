@@ -9,7 +9,7 @@ import styles from './home.style'
 
 const Home = ({ navigation }) => {
   return (
-    <SafeAreaView style={resuable.conatiner}>
+    <SafeAreaView style={resuable.container}>
       <View>
 
         {/* View containing User anme and Search btn */}

@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 const resuable = StyleSheet.create({
-    conatiner: {
+    container: {
         flex: 1,
         marginHorizontal: 20,
     },

@@ -1,10 +1,11 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet} from 'react-native'
 import React from 'react'
 
 const NetworkImage = ({ source, height, width, radius }) => {
     return (
         <Image
-            source={{ url: source }}
+            source={{ uri: source }}
+            // source={source}
             style={styles.image(height, width, radius)}
         />
     )

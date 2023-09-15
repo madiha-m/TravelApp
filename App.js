@@ -1,5 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import { StatusBar } from 'expo-status-bar';
+// import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import * as Splashscreen from 'expo-splash-screen';
 import { useCallback } from 'react';
