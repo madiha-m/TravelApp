@@ -7,13 +7,13 @@ import {
   NetworkImage,
   ReusableText,
 } from "../../../components/index";
-import { useNavigation } from "@react-navigation/native";
-
-const navigation = useNavigation(); //This was causing error 
+// import { useNavigation } from "@react-navigation/native";
 
 const Country = ({ item }) => {
+  // const navigation = useNavigation();
+ 
   return (
-    <TouchableOpacity >
+    <TouchableOpacity>
       <View>
         <NetworkImage
           source={item.imageUrl}
@@ -32,7 +32,7 @@ const Country = ({ item }) => {
           align={"center"}
         />
       </View>
-     </TouchableOpacity>
+    </TouchableOpacity>
   );
 };
 
