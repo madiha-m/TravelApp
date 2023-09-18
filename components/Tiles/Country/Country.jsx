@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import React from "react";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, Text } from "react-native";
 import { COLORS, TEXT } from "../../../constants/theme";
 import {
   HeightSpacer,
@@ -9,7 +9,7 @@ import {
 } from "../../../components/index";
 import { useNavigation } from "@react-navigation/native";
 
-const navigation = useNavigation();
+const navigation = useNavigation(); //This was causing error 
 
 const Country = ({ item }) => {
   return (
@@ -32,7 +32,7 @@ const Country = ({ item }) => {
           align={"center"}
         />
       </View>
-    </TouchableOpacity>
+     </TouchableOpacity>
   );
 };
 
