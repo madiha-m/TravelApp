@@ -7,13 +7,15 @@ import {
   NetworkImage,
   ReusableText,
 } from "../../../components/index";
-// import { useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 
 const Country = ({ item }) => {
-  // const navigation = useNavigation();
- 
+  const navigation = useNavigation();
+
   return (
-    <TouchableOpacity>
+    <TouchableOpacity
+      onPress={() => navigation.navigate("CountryDetails", item)}
+    >
       <View>
         <NetworkImage
           source={item.imageUrl}
