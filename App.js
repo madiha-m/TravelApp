@@ -7,6 +7,7 @@ import { NavigationContainer } from "@react-navigation/native"; //to wrap all na
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { CountryDetails, Onboarding, Search } from "./screens";
 import BottomTabNavigation from "./navigation/BottomTabNavigation";
+import Recommended from "./screens/details/Recommended";
 
 const Stack = createNativeStackNavigator();
 
@@ -61,6 +62,11 @@ export default function App() {
         <Stack.Screen
           name="CountryDetails"
           component={CountryDetails}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Recommended"
+          component={Recommended}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
